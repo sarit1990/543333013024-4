@@ -27,6 +27,9 @@ public class ArrayList {
 			elementData = arr;
 		}
 	}
+	public int size() {
+		return size;
+	}
 
 	public void addFirst(Object e) {
 		add(0, e);
@@ -43,6 +46,11 @@ public class ArrayList {
 		elementData[size - 1] = null;
 		size--;
 	}
+	public Object get(int a) {
+		Object get = elementData[a];
+		return get;
+	}
+
 
 	public String toString() {
 		String ret = "[";
