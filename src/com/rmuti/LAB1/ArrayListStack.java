@@ -20,11 +20,11 @@ public class ArrayListStack {
 	public static void main(String[] args) {
 		
 		ArrayListStack stack = new ArrayListStack();
-		stack.push("test1");
-		stack.push("test2");
-		stack.push("test3");
-		stack.push("test4");
-		stack.push("test5");
+		stack.push("aaa");
+		stack.push("bbb");
+		stack.push("ccc");
+		stack.push("ddd");
+		stack.push("eee");
 		System.out.println(stack);
 	}
 

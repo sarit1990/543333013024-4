@@ -69,6 +69,8 @@ public class ArrayList {
 		lst.add("aaa");
 		lst.add("bbb");
 		lst.add("ccc");
+		lst.add("ddd");
+		lst.add("eee");
 		System.out.println(lst);
 	}
 }

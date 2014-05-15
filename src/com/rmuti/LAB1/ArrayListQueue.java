@@ -21,11 +21,11 @@ public class ArrayListQueue {
 	public static void main(String[] args) {
 
 		ArrayListQueue queue = new ArrayListQueue();
-		queue.enQueue("test1");
-		queue.enQueue("test2");
-		queue.enQueue("test3");
-		queue.enQueue("test4");
-		queue.enQueue("test5");
+		queue.enQueue("aaa");
+		queue.enQueue("bbb");
+		queue.enQueue("ccc");
+		queue.enQueue("ddd");
+		queue.enQueue("eee");
 		System.out.println(queue);
 	}
 
