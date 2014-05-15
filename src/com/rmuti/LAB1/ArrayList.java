@@ -1,4 +1,4 @@
-package com.rmuti.datastructure;
+package com.rmuti.LAB1;
 
 public class ArrayList {
 	private Object[] elementData = new Object[1];
