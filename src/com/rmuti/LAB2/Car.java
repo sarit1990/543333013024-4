@@ -2,7 +2,7 @@ package com.rmuti.LAB2;
 
 import java.util.Arrays;
 
-public class Car implements Comparable {
+public class Car implements Comparable<Object> {
 
 	private String name;
 	private String type;
@@ -32,8 +32,9 @@ public String toString() {
 }
 public static void main(String[] args) {
 	Car[] CarArrays = new Car[] {
-			new Car("TOYOTA","Ã¶à¡ë§",660000),
-			new Car("ISUZU","¡ÃÐºÐ",900000)};
+			new Car("TOYOTA","vios",669000),
+			new Car("TOYOTA","vigo",600000),
+			new Car("ISUZU","D-Max",712000)};
 			Arrays.sort(CarArrays);
 			System.out.println(Arrays.toString(CarArrays));
 
